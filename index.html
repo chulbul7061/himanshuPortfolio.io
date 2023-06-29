@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(5, 5, 59);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 35px;
+            background-color: rgb(0, 0, 11);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(63, 189, 8);
+            font-size: 1.04rem;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        main hr {
+
+            border: 0;
+            background: #6697f5;
+            height: 1px;
+            margin-right: 40px;
+            margin-left: 40px;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+
+            width: 454px;
+        }
+
+        .leftsection {
+
+            font-size: 2.5rem;
+        }
+        .leftsection.button{
+            margin: 46px 0;
+        }
+
+        .btn {
+
+            padding: 12px;
+            background-color: rgb(110, 18, 155);
+            color: white;
+            border: 2px solid white;
+            border-radius: 2px;
+            font-size: 15px;
+
+        }
+       .btn a{
+
+padding: 12px;
+background-color: rgb(110, 18, 155);
+color: white;
+text-decoration: none;
+border-radius: 2px;
+font-size: 15px;
+
+}
+        
+
+        .rightsection img {
+            width: 575px;
+            margin: 36px -37px;
+
+
+        }
+
+        .purple {
+            color: rgb(160, 79, 235);
+        }
+
+        #element {
+            color: rgb(140, 64, 9);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 30vh;
+        }
+
+        .secondsection h1 {
+            max-width: 80vw;
+            margin-top: 10px;
+            margin-left: 39px;
+            font-size: 2rem;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 15px 0;
+            display: flex;
+        }
+
+        .text-gray {
+            color: rgb(223, 143, 87);
+            margin-left: 39px;
+
+        }
+
+        .secondsection .vertical {
+            height: 97px;
+            width: 89px;
+            background-color: white;
+            margin-left: 169px;
+
+
+
+        }
+
+        .image-top {
+            width: 90px;
+        }
+
+        .footer {
+            background-color: #4c4cac;
+            height: 286px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 114px;
+            justify-content: space-around;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Himanshu's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</li></a>
+                <li><a href="/">About</li></a>
+                <li><a href="/">Services</li></a>
+                <li><a href="/">Projects</li></a>
+                <li><a href="/">ContactMe</li></a>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi,My name is <span class="purple">Himanshu Shekhar</span> i am a Web developer
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="https://drive.google.com/file/d/1YGMuNlSO_Q3rqwurQ5GL2lgdt2J9D8AV/view">download Resume</a></button>
+                    
+                    <button class="btn"><a href="https://github.com/chulbul7061">VisitGithub</a></button>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="pp.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">INTRODUCTION</span>
+            <h1>Overview</h1>
+            <p>I'm a skilled software developer with experience in JavaScript, and frameworks like React, Node.js. I'm a
+                quick learner and collaborate closely with clients to create efficient, scalable and user-friendly
+                solutions that solve real-world problems. Let's work together to bring ideas to life!</p>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top " src="html.png" alt="">
+                </div>
+                <div class="vertical">
+                    <img class="image-top " src="css.png" alt="">
+                </div>
+                <div class="vertical">
+                    <img class="image-top " src="bs.png" alt="">
+                </div>
+                <div class="vertical">
+                    <img class="image-top " src="js.png" alt="">
+                </div>
+
+
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="leftsidefooter">
+                <h1>Himanshu's Portfolio</h1>
+            </div>
+            <div class="rightsidefooter">
+                <h1>Get in touch</h1>
+                
+                <form action="smg">
+                   <input type="text" name="" id="forms" placeholder="Enter your name"><br><br>
+                   <input type="email" name="" id="forms" placeholder="Enter your email"><br><br>
+                   <textarea name="comments" id="forms" cols="20" rows="10"></textarea><br><br>
+                   <input type="submit" name="submit">
+                </form>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Front-End ','Back-End ', 'Developer !!'],
+            typeSpeed: 90,
+        });
+    </script>
+
+</body>
+
+</html>
